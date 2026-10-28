@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# ./serve_html for the tweet thread: the same server and options (-f, -p, --cloudflare, ...), with ./twitter.html
+# (src/retrieval_blog_post/twitter.py's page) at / in place of ./index.html.
+exec "$(dirname "$0")/serve_html" --page twitter.html "$@"

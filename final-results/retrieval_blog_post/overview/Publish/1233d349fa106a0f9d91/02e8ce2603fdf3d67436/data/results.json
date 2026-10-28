@@ -1,0 +1,88 @@
+{
+  "overview": "retrieval_blog_post/overview/Overview/8237547569a11abb73ce/15e42336819c8a5fb0cf/data/index.html",
+  "blog_figures": "retrieval_blog_post/blog/BlogFigures/893a07652733c80f1ca9/e876271fe4ee1428d019/data",
+  "twitter": "retrieval_blog_post/twitter/Twitter/1ab7178a7b3944dc984b/03c9fbc27ed12b5528ba/data/index.html",
+  "twitter_media": "retrieval_blog_post/twitter_media/TwitterMedia/4797f47e79183da6f582/d75613860cb4533df43f/data",
+  "llmc": {
+    "llm.c, validation rows on CPUs": [
+      {
+        "seed": 0,
+        "steps": 470,
+        "val_loss": 3.2609,
+        "seconds": 21.782
+      },
+      {
+        "seed": 1,
+        "steps": 470,
+        "val_loss": 3.2628,
+        "seconds": 21.376
+      },
+      {
+        "seed": 2,
+        "steps": 470,
+        "val_loss": 3.2662,
+        "seconds": 21.447
+      }
+    ],
+    "llm.c without hints": [
+      {
+        "seed": 0,
+        "steps": 470,
+        "val_loss": 4.8314,
+        "seconds": 20.136
+      },
+      {
+        "seed": 1,
+        "steps": 470,
+        "val_loss": 4.7692,
+        "seconds": 20.164
+      },
+      {
+        "seed": 2,
+        "steps": 470,
+        "val_loss": 4.8398,
+        "seconds": 20.162
+      }
+    ],
+    "llm.c, validation rows on GPUs": [
+      {
+        "seed": 0,
+        "steps": 210,
+        "val_loss": 3.2698,
+        "seconds": 12.434
+      },
+      {
+        "seed": 1,
+        "steps": 210,
+        "val_loss": 3.274,
+        "seconds": 12.511
+      },
+      {
+        "seed": 2,
+        "steps": 210,
+        "val_loss": 3.2694,
+        "seconds": 12.437
+      }
+    ],
+    "PyTorch port, validation rows on GPUs": [
+      {
+        "seed": 0,
+        "steps": 210,
+        "val_loss": 3.2668,
+        "seconds": 16.854
+      },
+      {
+        "seed": 1,
+        "steps": 210,
+        "val_loss": 3.2699,
+        "seconds": 16.481
+      },
+      {
+        "seed": 2,
+        "steps": 210,
+        "val_loss": 3.2744,
+        "seconds": 16.294
+      }
+    ]
+  }
+}

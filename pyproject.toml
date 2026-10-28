@@ -1,0 +1,37 @@
+[project]
+name = "retrieval-blog-post"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=6.3.0",
+    "cache-ladder",
+    "exact-match",
+    "fonttools[woff]>=4.67.0",
+    "furu>=0.0.76",
+    "huggingface-hub>=2.1.1",
+    "imageio-ffmpeg>=0.6.0",
+    "numpy>=2",
+    "playwright>=1.64.1",
+    "polars>=2.0.0",
+    "tiktoken>=0.14.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.26,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "cache_ladder",
+    "exact_match",
+]
+
+[tool.uv.sources]
+cache-ladder = { workspace = true, editable = true }
+exact-match = { workspace = true, editable = true }
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.10",
+    "ty>=0.0.85",
+]

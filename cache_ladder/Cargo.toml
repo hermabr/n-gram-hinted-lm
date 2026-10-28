@@ -1,0 +1,21 @@
+[package]
+name = "cache-ladder"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.89" # the AVX-512 intrinsics
+
+[lib]
+name = "cache_ladder"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.27", features = ["extension-module"] }
+numpy = "0.27"
+rayon = "1.11"
+libc = "0.2"
+hashbrown = { version = "0.17", default-features = false, features = ["allocator-api2", "inline-more"] }
+allocator-api2 = "0.2"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

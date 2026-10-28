@@ -1,0 +1,38 @@
+{
+  "kind": "completed",
+  "artifact": {
+    "fully_qualified_name": "retrieval_blog_post.overview.Publish",
+    "artifact_data": {
+      "|kind": "instance",
+      "|class": "retrieval_blog_post.overview.Publish",
+      "|fields": {}
+    },
+    "artifact_hash": "02e8ce2603fdf3d67436",
+    "schema_data": {
+      "|class": "retrieval_blog_post.overview.Publish",
+      "|fields": {}
+    },
+    "schema_hash": "1233d349fa106a0f9d91"
+  },
+  "base_path": "/sphinx/u/brunborg/.t3/worktrees/retrieval-blog-post/t3-922575fe/final-results/retrieval_blog_post/overview/Publish/1233d349fa106a0f9d91/02e8ce2603fdf3d67436",
+  "started_at": "2026-10-28T17:43:56.277452Z",
+  "completed_at": "2026-10-28T17:44:39.396758Z",
+  "observed_dependencies": [
+    "retrieval_blog_post.blog.BlogFigures:893a07652733c80f1ca9:e876271fe4ee1428d019",
+    "retrieval_blog_post.llmc_cpu_val.LlmcCpuValRun:5d508f8633b75291ecd7:3ab319c948e8011cf8e8",
+    "retrieval_blog_post.llmc_cpu_val.LlmcCpuValRun:5d508f8633b75291ecd7:3d95d0734a1f7a308c17",
+    "retrieval_blog_post.llmc_cpu_val.LlmcCpuValRun:5d508f8633b75291ecd7:5a013e28e0f1adbbdebb",
+    "retrieval_blog_post.llmc_cpu_val.LlmcCpuValRun:5d508f8633b75291ecd7:5d18cfd13917fc2a6e27",
+    "retrieval_blog_post.llmc_cpu_val.LlmcCpuValRun:5d508f8633b75291ecd7:907e43d27b5969337a70",
+    "retrieval_blog_post.llmc_cpu_val.LlmcCpuValRun:5d508f8633b75291ecd7:e094cf6c61b38fccf04b",
+    "retrieval_blog_post.llmc_onclock.LlmcRun:7f4234d8e1efc6b473b6:68958b1f9a2ca47b7146",
+    "retrieval_blog_post.llmc_onclock.LlmcRun:7f4234d8e1efc6b473b6:732c89d4a3c53393c1e9",
+    "retrieval_blog_post.llmc_onclock.LlmcRun:7f4234d8e1efc6b473b6:e030a82435d5fe21d7cb",
+    "retrieval_blog_post.old_records.OldRecordRun:fb7a7c2d0b1201bc86da:298fb51cc60375e85dba",
+    "retrieval_blog_post.old_records.OldRecordRun:fb7a7c2d0b1201bc86da:4c7148dc59eba9b6ad64",
+    "retrieval_blog_post.old_records.OldRecordRun:fb7a7c2d0b1201bc86da:4e5d4a6fe198ab980fc8",
+    "retrieval_blog_post.overview.Overview:8237547569a11abb73ce:15e42336819c8a5fb0cf",
+    "retrieval_blog_post.twitter.Twitter:1ab7178a7b3944dc984b:03c9fbc27ed12b5528ba",
+    "retrieval_blog_post.twitter_media.TwitterMedia:4797f47e79183da6f582:d75613860cb4533df43f"
+  ]
+}

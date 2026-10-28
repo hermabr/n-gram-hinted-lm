@@ -1,0 +1,43 @@
+{
+  "kind": "completed",
+  "artifact": {
+    "fully_qualified_name": "retrieval_blog_post.blog.BlogFigures",
+    "artifact_data": {
+      "|kind": "instance",
+      "|class": "retrieval_blog_post.blog.BlogFigures",
+      "|fields": {}
+    },
+    "artifact_hash": "e876271fe4ee1428d019",
+    "schema_data": {
+      "|class": "retrieval_blog_post.blog.BlogFigures",
+      "|fields": {}
+    },
+    "schema_hash": "893a07652733c80f1ca9"
+  },
+  "base_path": "/sphinx/u/brunborg/.t3/worktrees/retrieval-blog-post/t3-922575fe/final-results/retrieval_blog_post/blog/BlogFigures/893a07652733c80f1ca9/e876271fe4ee1428d019",
+  "started_at": "2026-10-28T17:43:59.570266Z",
+  "completed_at": "2026-10-28T17:43:59.624576Z",
+  "observed_dependencies": [
+    "retrieval_blog_post.kgram.KGramMatchStats:b8ebd263874c96333acf:eeb71631103fafe721c4",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:01cc4f00511f6ddc7567",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:088fb14283917a7aaef3",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:1db7c1dd556d5379499b",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:2ec3b666e7f93fb09128",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:33e2f8662014a93b3ebb",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:4431ac0e922989299b38",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:4f0a8e77b84abe1d51b1",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:55ba9850f90dfd404060",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:62a172508383182983a7",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:68205520453425c462ed",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:89e2a688a6f0c79812cb",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:a52d215a783fe8cd7d60",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:b7fd6060ed96c490cdcb",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:ced8775ac1653c498e58",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:e9add8d84523cf6b35f7",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:f03efd59ef28594a49d3",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:f73496f75dbec56add26",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:f9a1cc501c0d1b73b94d",
+    "retrieval_blog_post.ladder.BuildTime:5a6dace3595b0598bb03:ffad8261f6c8d68e22cf",
+    "retrieval_blog_post.val_cache.ValCacheSweep:e834fc5b4c19e93718c2:84797fcbd6f098948803"
+  ]
+}

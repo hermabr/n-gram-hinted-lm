@@ -1,0 +1,796 @@
+{
+ "rows": [
+  [
+   17,
+   214.2,
+   "12/17/24"
+  ],
+  [
+   18,
+   204.0,
+   "01/04/25"
+  ],
+  [
+   19,
+   188.52,
+   "01/13/25"
+  ],
+  [
+   20,
+   179.52,
+   "01/16/25"
+  ],
+  [
+   21,
+   175.98,
+   "01/26/25"
+  ],
+  [
+   21,
+   179.82,
+   "02/01/25"
+  ],
+  [
+   21,
+   180.84,
+   "05/24/25"
+  ],
+  [
+   22,
+   179.4,
+   "05/24/25"
+  ],
+  [
+   23,
+   178.74,
+   "05/25/25"
+  ],
+  [
+   24,
+   177.96,
+   "05/30/25"
+  ],
+  [
+   25,
+   173.76,
+   "07/13/25"
+  ],
+  [
+   26,
+   171.78,
+   "07/13/25"
+  ],
+  [
+   27,
+   169.02,
+   "07/18/25"
+  ],
+  [
+   28,
+   168.72,
+   "08/23/25"
+  ],
+  [
+   29,
+   163.86,
+   "09/03/25"
+  ],
+  [
+   30,
+   163.02,
+   "09/05/25"
+  ],
+  [
+   31,
+   159.36,
+   "09/10/25"
+  ],
+  [
+   32,
+   157.5,
+   "09/11/25"
+  ],
+  [
+   33,
+   153.9,
+   "09/15/25"
+  ],
+  [
+   34,
+   152.82,
+   "09/18/25"
+  ],
+  [
+   35,
+   151.62,
+   "09/21/25"
+  ],
+  [
+   36,
+   149.7,
+   "09/23/25"
+  ],
+  [
+   37,
+   148.98,
+   "09/27/25"
+  ],
+  [
+   38,
+   148.56,
+   "09/29/25"
+  ],
+  [
+   39,
+   146.82,
+   "09/30/25"
+  ],
+  [
+   40,
+   141.48,
+   "10/04/25"
+  ],
+  [
+   41,
+   140.7,
+   "10/24/25"
+  ],
+  [
+   42,
+   138.78,
+   "10/27/25"
+  ],
+  [
+   43,
+   137.04,
+   "11/10/25"
+  ],
+  [
+   44,
+   136.14,
+   "11/16/25"
+  ],
+  [
+   45,
+   134.88,
+   "11/18/25"
+  ],
+  [
+   46,
+   132.18,
+   "11/29/25"
+  ],
+  [
+   47,
+   131.58,
+   "12/10/25"
+  ],
+  [
+   48,
+   130.2,
+   "12/11/25"
+  ],
+  [
+   49,
+   128.76,
+   "12/14/25"
+  ],
+  [
+   50,
+   127.68,
+   "12/18/25"
+  ],
+  [
+   51,
+   124.5,
+   "12/19/25"
+  ],
+  [
+   52,
+   122.22,
+   "12/21/25"
+  ],
+  [
+   53,
+   119.28,
+   "12/22/25"
+  ],
+  [
+   54,
+   116.4,
+   "12/26/25"
+  ],
+  [
+   55,
+   115.08,
+   "12/29/25"
+  ],
+  [
+   56,
+   113.64,
+   "12/31/25"
+  ],
+  [
+   57,
+   112.68,
+   "01/04/26"
+  ],
+  [
+   58,
+   109.2,
+   "01/07/26"
+  ],
+  [
+   59,
+   106.86,
+   "01/10/26"
+  ],
+  [
+   60,
+   105.9,
+   "01/16/26"
+  ],
+  [
+   61,
+   104.88,
+   "01/18/26"
+  ],
+  [
+   62,
+   99.3,
+   "01/19/26"
+  ],
+  [
+   63,
+   99.0,
+   "01/26/26"
+  ],
+  [
+   64,
+   97.8,
+   "01/30/26"
+  ],
+  [
+   65,
+   96.78,
+   "01/30/26"
+  ],
+  [
+   66,
+   95.7,
+   "01/31/26"
+  ],
+  [
+   67,
+   92.4,
+   "01/31/26"
+  ],
+  [
+   68,
+   92.1,
+   "01/31/26"
+  ],
+  [
+   69,
+   91.68,
+   "02/02/26"
+  ],
+  [
+   70,
+   91.26,
+   "02/03/26"
+  ],
+  [
+   71,
+   90.96,
+   "02/06/26"
+  ],
+  [
+   72,
+   89.76,
+   "02/10/26"
+  ],
+  [
+   73,
+   89.1,
+   "02/12/26"
+  ],
+  [
+   74,
+   88.08,
+   "02/16/26"
+  ],
+  [
+   75,
+   87.18,
+   "02/23/26"
+  ],
+  [
+   76,
+   86.76,
+   "02/28/26"
+  ],
+  [
+   77,
+   86.1,
+   "03/06/26"
+  ],
+  [
+   78,
+   85.56,
+   "03/22/26"
+  ],
+  [
+   79,
+   84.66,
+   "04/04/26"
+  ],
+  [
+   80,
+   84.36,
+   "04/08/26"
+  ],
+  [
+   81,
+   81.78,
+   "04/22/26"
+  ],
+  [
+   82,
+   81.18,
+   "04/29/26"
+  ],
+  [
+   83,
+   79.68,
+   "05/20/26"
+  ],
+  [
+   84,
+   79.2,
+   "05/21/26"
+  ],
+  [
+   85,
+   76.26,
+   "05/27/26"
+  ],
+  [
+   86,
+   75.96,
+   "05/27/26"
+  ],
+  [
+   87,
+   75.36,
+   "06/11/26"
+  ],
+  [
+   88,
+   74.58,
+   "07/13/26"
+  ],
+  [
+   89,
+   73.8,
+   "07/17/26"
+  ],
+  [
+   90,
+   67.8,
+   "08/03/26"
+  ],
+  [
+   91,
+   67.56,
+   "08/06/26"
+  ],
+  [
+   92,
+   39.9,
+   "08/30/26"
+  ]
+ ],
+ "previousRetimed": 39.9,
+ "newSeconds": 6.702,
+ "newDate": "10/01/26",
+ "tips": [
+  [
+   "#18 (01/04/25)",
+   "Lower logit softcap from 30 to 15",
+   "214.2 s \u2192 204 s (\u22124.8%)"
+  ],
+  [
+   "#19 (01/13/25)",
+   "FP8 head, offset logits, lr decay to 0.1 instead of 0.0",
+   "204 s \u2192 188.5 s (\u22127.6%)"
+  ],
+  [
+   "#20 (01/16/25)",
+   "Merged QKV weights, long-short attention, attention scale, lower Adam epsilon, batched Muon",
+   "188.5 s \u2192 179.5 s (\u22124.8%)"
+  ],
+  [
+   "#21 (01/26/25)",
+   "Reduced batch size",
+   "179.5 s \u2192 176 s (\u22122.0%)"
+  ],
+  [
+   "#21 re-timed (02/01/25)",
+   "21st record with new timing",
+   "176 s \u2192 179.8 s"
+  ],
+  [
+   "#21 re-timed (05/24/25)",
+   "21st record with latest torch",
+   "179.8 s \u2192 180.8 s"
+  ],
+  [
+   "#22 (05/24/25)",
+   "Faster gradient all-reduce",
+   "180.8 s \u2192 179.4 s (\u22120.8%)"
+  ],
+  [
+   "#23 (05/25/25)",
+   "Overlap computation and gradient communication",
+   "179.4 s \u2192 178.7 s (\u22120.4%)"
+  ],
+  [
+   "#24 (05/30/25)",
+   "Replace gradient all_reduce with reduce_scatter",
+   "178.7 s \u2192 178 s (\u22120.4%)"
+  ],
+  [
+   "#25 (07/13/25)",
+   "Upgrade PyTorch to 2.9.0.dev20250713+cu126",
+   "178 s \u2192 173.8 s (\u22122.4%)"
+  ],
+  [
+   "#26 (07/13/25)",
+   "Align training batch starts with EoS, increase cooldown frac to .45",
+   "173.8 s \u2192 171.8 s (\u22121.1%)"
+  ],
+  [
+   "#27 (07/18/25)",
+   "Transpose one of the MLP matrices + add Triton kernel for symmetric matmul",
+   "171.8 s \u2192 169 s (\u22121.6%)"
+  ],
+  [
+   "#28 (08/23/25)",
+   "Sparse attention gate",
+   "169 s \u2192 168.7 s (\u22120.2%)"
+  ],
+  [
+   "#29 (09/03/25)",
+   "Flash Attention 3, 2048 max_doc_len, update ws schedule",
+   "168.7 s \u2192 163.9 s (\u22122.9%)"
+  ],
+  [
+   "#30 (09/05/25)",
+   "Drop first MLP layer",
+   "163.9 s \u2192 163 s (\u22120.5%)"
+  ],
+  [
+   "#31 (09/10/25)",
+   "Dynamically incorporate YaRN during training and validation",
+   "163 s \u2192 159.4 s (\u22122.2%)"
+  ],
+  [
+   "#32 (09/11/25)",
+   "Optimize distributed training, improve skip connection gating, and enhance bfloat16 usage",
+   "159.4 s \u2192 157.5 s (\u22121.2%)"
+  ],
+  [
+   "#33 (09/15/25)",
+   "Asynchronously fetch and index data batches, extend final layer attention window for validation",
+   "157.5 s \u2192 153.9 s (\u22122.3%)"
+  ],
+  [
+   "#34 (09/18/25)",
+   "Smear token embeddings 1 position forward",
+   "153.9 s \u2192 152.8 s (\u22120.7%)"
+  ],
+  [
+   "#35 (09/21/25)",
+   "Drop first attn layer, extend all long windows for validation, update schedule",
+   "152.8 s \u2192 151.6 s (\u22120.8%)"
+  ],
+  [
+   "#36 (09/23/25)",
+   "MuonCustomSizing, perform mlp and attn reduce scatter in shared call",
+   "151.6 s \u2192 149.7 s (\u22121.3%)"
+  ],
+  [
+   "#37 (09/27/25)",
+   "Compute cross entropy in BF16 during training",
+   "149.7 s \u2192 149 s (\u22120.5%)"
+  ],
+  [
+   "#38 (09/29/25)",
+   "Polar Express, replacement for Newton-Schulz",
+   "149 s \u2192 148.6 s (\u22120.3%)"
+  ],
+  [
+   "#39 (09/30/25)",
+   "Only update Adam params every other step, reduce batch size",
+   "148.6 s \u2192 146.8 s (\u22121.2%)"
+  ],
+  [
+   "#40 (10/04/25)",
+   "Backout, misc hyperparameter tuning, optimize lambda padding",
+   "146.8 s \u2192 141.5 s (\u22123.6%)"
+  ],
+  [
+   "#41 (10/24/25)",
+   "NorMuon",
+   "141.5 s \u2192 140.7 s (\u22120.6%)"
+  ],
+  [
+   "#42 (10/27/25)",
+   "Update NorMuon LR, Step Logic",
+   "140.7 s \u2192 138.8 s (\u22121.4%)"
+  ],
+  [
+   "#43 (11/10/25)",
+   "Cautious Weight Decay w/ schedule",
+   "138.8 s \u2192 137 s (\u22121.3%)"
+  ],
+  [
+   "#44 (11/16/25)",
+   "Backward hooks on Adam, Profiling 101",
+   "137 s \u2192 136.1 s (\u22120.7%)"
+  ],
+  [
+   "#45 (11/18/25)",
+   "Refine skip arch, update exponential decay init",
+   "136.1 s \u2192 134.9 s (\u22120.9%)"
+  ],
+  [
+   "#46 (11/29/25)",
+   "Batch size schedule",
+   "134.9 s \u2192 132.2 s (\u22122.0%)"
+  ],
+  [
+   "#47 (12/10/25)",
+   "Multiply attn lambda with weight instead of data, fix warmup",
+   "132.2 s \u2192 131.6 s (\u22120.5%)"
+  ],
+  [
+   "#48 (12/11/25)",
+   "Speed up Muon, additional pre-multiply lambda, reshape matrices, update lr, update NorMuon axis",
+   "131.6 s \u2192 130.2 s (\u22121.0%)"
+  ],
+  [
+   "#49 (12/14/25)",
+   "Partial Key Offset",
+   "130.2 s \u2192 128.8 s (\u22121.1%)"
+  ],
+  [
+   "#50 (12/18/25)",
+   "Extend Cautious Weight Decay to Adam parameters",
+   "128.8 s \u2192 127.7 s (\u22120.8%)"
+  ],
+  [
+   "#51 (12/19/25)",
+   "Retie Embed to lm_head, retune fp8 scales",
+   "127.7 s \u2192 124.5 s (\u22122.5%)"
+  ],
+  [
+   "#52 (12/21/25)",
+   "Smooth scalars via beta increase, decrease smear gate lr, freeze scalars during transitions, adam all reduce",
+   "124.5 s \u2192 122.2 s (\u22121.8%)"
+  ],
+  [
+   "#53 (12/22/25)",
+   "Multi-token prediction, untie embed/lm_head at 2/3 training, lr update, tweak CWD",
+   "122.2 s \u2192 119.3 s (\u22122.4%)"
+  ],
+  [
+   "#54 (12/26/25)",
+   "Asymmetric Logit Rescale",
+   "119.3 s \u2192 116.4 s (\u22122.4%)"
+  ],
+  [
+   "#55 (12/29/25)",
+   "Gates on value embeds and skip connection",
+   "116.4 s \u2192 115.1 s (\u22121.1%)"
+  ],
+  [
+   "#56 (12/31/25)",
+   "Optimize and compile Adam, increase Adam buffer precision, move gates from Muon to Adam parameter banks",
+   "115.1 s \u2192 113.6 s (\u22121.3%)"
+  ],
+  [
+   "#57 (01/04/26)",
+   "Bfloat16 attn/mlp weights, mixed precision Muon, interweave Adam/Muon, finer-grain Adam beta",
+   "113.6 s \u2192 112.7 s (\u22120.8%)"
+  ],
+  [
+   "#58 (01/07/26)",
+   "Paired Head Attention",
+   "112.7 s \u2192 109.2 s (\u22123.1%)"
+  ],
+  [
+   "#59 (01/10/26)",
+   "Fused triton kernel for linear relu square MLP step",
+   "109.2 s \u2192 106.9 s (\u22122.1%)"
+  ],
+  [
+   "#60 (01/16/26)",
+   "Fused triton kernel for softcapped multi-token prediction cross entropy step",
+   "106.9 s \u2192 105.9 s (\u22120.9%)"
+  ],
+  [
+   "#61 (01/18/26)",
+   "Unified Optimizers and Transposed LM Head",
+   "105.9 s \u2192 104.9 s (\u22121.0%)"
+  ],
+  [
+   "#62 (01/19/26)",
+   "Bigram Hash Embedding",
+   "104.9 s \u2192 99.3 s (\u22125.3%)"
+  ],
+  [
+   "#63 (01/26/26)",
+   "Untie Value Embeds",
+   "99.3 s \u2192 99 s (\u22120.3%)"
+  ],
+  [
+   "#64 (01/30/26)",
+   "Tuned nonzero Attn V and O init",
+   "99 s \u2192 97.8 s (\u22121.2%)"
+  ],
+  [
+   "#65 (01/30/26)",
+   "Group Value Embeds into single parameter",
+   "97.8 s \u2192 96.78 s (\u22121.0%)"
+  ],
+  [
+   "#66 (01/31/26)",
+   "Torch 2.10",
+   "96.78 s \u2192 95.7 s (\u22121.1%)"
+  ],
+  [
+   "#67 (01/31/26)",
+   "Tune fused softcap kernels and fuse fp8 quantization in LM head",
+   "95.7 s \u2192 92.4 s (\u22123.4%)"
+  ],
+  [
+   "#68 (01/31/26)",
+   "Move bigram hash to GPU",
+   "92.4 s \u2192 92.1 s (\u22120.3%)"
+  ],
+  [
+   "#69 (02/02/26)",
+   "Kernel Optimizations",
+   "92.1 s \u2192 91.68 s (\u22120.5%)"
+  ],
+  [
+   "#70 (02/03/26)",
+   "Tune value embed layout and ve_gates",
+   "91.68 s \u2192 91.26 s (\u22120.5%)"
+  ],
+  [
+   "#71 (02/06/26)",
+   "Sparse bigram gradient comms and optimized loading on CPU",
+   "91.26 s \u2192 90.96 s (\u22120.3%)"
+  ],
+  [
+   "#72 (02/10/26)",
+   "Increase minimum lr and add max_seq_len schedule",
+   "90.96 s \u2192 89.76 s (\u22121.3%)"
+  ],
+  [
+   "#73 (02/12/26)",
+   "Partitioned Hyperconnections",
+   "89.76 s \u2192 89.1 s (\u22120.7%)"
+  ],
+  [
+   "#74 (02/16/26)",
+   "Flattened GPT forward, removed post attention lambdas, added transpose kernels",
+   "89.1 s \u2192 88.08 s (\u22121.1%)"
+  ],
+  [
+   "#75 (02/23/26)",
+   "Cross Entropy Kernel Optimizations",
+   "88.08 s \u2192 87.18 s (\u22121.0%)"
+  ],
+  [
+   "#76 (02/28/26)",
+   "Reuse and tune backward transpose kernel",
+   "87.18 s \u2192 86.76 s (\u22120.5%)"
+  ],
+  [
+   "#77 (03/06/26)",
+   "Replace partitioned hyperconnections with single saved activation",
+   "86.76 s \u2192 86.1 s (\u22120.8%)"
+  ],
+  [
+   "#78 (03/22/26)",
+   "Tighten bounds on fa3 max_num_docs to match fineweb distribution",
+   "86.1 s \u2192 85.56 s (\u22120.6%)"
+  ],
+  [
+   "#79 (04/04/26)",
+   "Fuse Cross Entropy Fwd/Bwk Kernel, to avoid recalc on softcap sigmoid",
+   "85.56 s \u2192 84.66 s (\u22121.1%)"
+  ],
+  [
+   "#80 (04/08/26)",
+   "In Muon orthogonize Q and K matrices in pairs of heads, instead of across the full 6 head matrix",
+   "84.66 s \u2192 84.36 s (\u22120.4%)"
+  ],
+  [
+   "#81 (04/22/26)",
+   "MUDD Skip Connections",
+   "84.36 s \u2192 81.78 s (\u22123.1%)"
+  ],
+  [
+   "#82 (04/29/26)",
+   "Learnable XSA",
+   "81.78 s \u2192 81.18 s (\u22120.7%)"
+  ],
+  [
+   "#83 (05/20/26)",
+   "Sign Trick on Bigram Embed",
+   "81.18 s \u2192 79.68 s (\u22121.8%)"
+  ],
+  [
+   "#84 (05/21/26)",
+   "FP8 on MLP up-projection forward pass",
+   "79.68 s \u2192 79.2 s (\u22120.6%)"
+  ],
+  [
+   "#85 (05/27/26)",
+   "MUDD gates and Lightweight Dynamically Composable MHA",
+   "79.2 s \u2192 76.26 s (\u22123.7%)"
+  ],
+  [
+   "#86 (05/27/26)",
+   "Algebraic rewrite of XSA, same math faster execution",
+   "76.26 s \u2192 75.96 s (\u22120.4%)"
+  ],
+  [
+   "#87 (06/11/26)",
+   "Faster Implementation of Relu^2 Kernel",
+   "75.96 s \u2192 75.36 s (\u22120.8%)"
+  ],
+  [
+   "#88 (07/13/26)",
+   "Prefix token prediction auxiliary loss",
+   "75.36 s \u2192 74.58 s (\u22121.0%)"
+  ],
+  [
+   "#89 (07/17/26)",
+   "MLP down projection in FP8 with efficient delayed scaling metric",
+   "74.58 s \u2192 73.8 s (\u22121.0%)"
+  ],
+  [
+   "#90 (08/03/26)",
+   "128 -> 96 dim QK, Fuse QK Norm, RoPE, and KeyOffset into Triton, Move MLP bwk to FP8, Move QKV fwd and bwk to FP8.",
+   "73.8 s \u2192 67.8 s (\u22128.1%)"
+  ],
+  [
+   "#91 (08/06/26)",
+   "Mask logits for infeasible token continuations during validation.",
+   "67.8 s \u2192 67.56 s (\u22120.4%)"
+  ],
+  [
+   "#92 (08/30/26)",
+   "Sampled softmax over the early stages, full FP8 MLP fwd+bwd, 84.6M-row hashed n-gram table, ANVIL optimizer stack, depth reduction + mixed-width QK attention, full CUDA-graph capture of the training step",
+   "67.56 s \u2192 39.9 s (\u221240.9%)"
+  ]
+ ],
+ "newTip": [
+  "Retrieval-augmented n-grams (#367)",
+  "39.9 s \u2192 6.702 s (\u221283.2%)"
+ ],
+ "colors": {
+  "bg": "#fffbfd",
+  "ink": "#2b2025",
+  "muted": "#75666e",
+  "grid": "#f0e5eb",
+  "blue": "#3a7be6",
+  "pink": "#f7329a"
+ }
+}

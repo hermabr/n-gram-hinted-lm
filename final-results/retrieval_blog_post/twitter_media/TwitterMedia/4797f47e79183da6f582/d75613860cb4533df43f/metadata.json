@@ -1,0 +1,23 @@
+{
+  "kind": "completed",
+  "artifact": {
+    "fully_qualified_name": "retrieval_blog_post.twitter_media.TwitterMedia",
+    "artifact_data": {
+      "|kind": "instance",
+      "|class": "retrieval_blog_post.twitter_media.TwitterMedia",
+      "|fields": {}
+    },
+    "artifact_hash": "d75613860cb4533df43f",
+    "schema_data": {
+      "|class": "retrieval_blog_post.twitter_media.TwitterMedia",
+      "|fields": {}
+    },
+    "schema_hash": "4797f47e79183da6f582"
+  },
+  "base_path": "/sphinx/u/brunborg/.t3/worktrees/retrieval-blog-post/t3-922575fe/final-results/retrieval_blog_post/twitter_media/TwitterMedia/4797f47e79183da6f582/d75613860cb4533df43f",
+  "started_at": "2026-10-28T17:43:59.712241Z",
+  "completed_at": "2026-10-28T17:44:39.367399Z",
+  "observed_dependencies": [
+    "retrieval_blog_post.twitter.Twitter:1ab7178a7b3944dc984b:03c9fbc27ed12b5528ba"
+  ]
+}

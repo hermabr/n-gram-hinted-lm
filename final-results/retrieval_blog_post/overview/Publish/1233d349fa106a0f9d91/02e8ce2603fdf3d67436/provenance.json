@@ -1,0 +1,37 @@
+{
+  "git": {
+    "commit": "fa53e2baffbd5dafe04e1b848416f1f182315814",
+    "branch": "publish-ready",
+    "remote": "git@github.com:hermabr/retrieval-blog-post.git",
+    "repo_root": "/sphinx/u/brunborg/.t3/worktrees/retrieval-blog-post/t3-922575fe",
+    "dirty": true,
+    "diff_stats": "61 files changed, 2480 deletions(-)"
+  },
+  "environment": {
+    "python": "3.12.11",
+    "uv": "0.11.26",
+    "project_root": "/sphinx/u/brunborg/.t3/worktrees/retrieval-blog-post/t3-922575fe",
+    "uv_lock_hash": "blake2s:5738c0a4f3c88c0d7b45",
+    "pyproject_hash": "blake2s:0c6308bc578644d07abe",
+    "furu": "0.0.76"
+  },
+  "snapshot_id": "f782f1b3e73ced0a4b3a",
+  "submitted": {
+    "hostname": "sphinx11.stanford.edu",
+    "user": "brunborg",
+    "cwd": "/sphinx/u/brunborg/.t3/worktrees/retrieval-blog-post/t3-922575fe",
+    "launch_command": [
+      "/sphinx/u/brunborg/.cache/uv/environments-v2/retrieval-blog-post-cp3.12-e696818814659130/bin/python3",
+      "src/retrieval_blog_post/overview.py"
+    ],
+    "timestamp": "2026-10-28T17:43:56.276643Z"
+  },
+  "executed": {
+    "hostname": "sphinx11.stanford.edu",
+    "cpu_count": 224,
+    "accelerators": [],
+    "slurm_job_id": "18150320",
+    "worker_backend": "local",
+    "pid": 3513762
+  }
+}

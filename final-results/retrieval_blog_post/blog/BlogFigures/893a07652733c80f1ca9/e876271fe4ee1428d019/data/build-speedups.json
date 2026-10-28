@@ -1,0 +1,76 @@
+{
+ "x_label": "hint corpus indexed in 5.6 s (tokens)",
+ "bars": [
+  {
+   "label": "1. Python",
+   "value": 73640478.63356031,
+   "text": "73.6M",
+   "tip": [
+    "Python · 73.6M tokens in 5.6 s",
+    "The naive index. For each of the 6-, 10- and 20-token contexts, a Python dict maps the hash of the context to a counter of the tokens that followed it (at most 288 different ones). 48 processes share the work by key: each hashes its slice of the corpus and hands every (key, next token) pair to the process that owns the key, through files in /dev/shm; each owner then fills its three dicts.",
+    "Measured: 86M tokens in 6.57, 6.35, 6.64 s (miso5, peak 86 GiB)."
+   ],
+   "color": "#517ec7"
+  },
+  {
+   "label": "2. Best auto-research",
+   "value": 3375674528.6874356,
+   "text": "3.38B",
+   "tip": [
+    "Best auto-research · 3.38B tokens in 5.6 s",
+    "The same work as the Python dicts (three maps from a context's hash to a counter of its next tokens, at most 288, every count kept, the pairs handed to the key's owner thread), written in Rust with hashbrown hash maps. The first, literal version (std HashMap of HashMaps) was no faster than Python: 48 threads of one process allocating hundreds of millions of small maps contend for one allocator and address space. Here each owner's map is split into hashbrown maps small enough to stay in a core's cache, filled one at a time, with a context's single next token stored inline in the value, allocating from memory mapped once before the threads fill it.",
+    "Measured: 3.6B tokens in 6.51, 6.29, 6.13 s (miso1, peak 281 GiB)."
+   ],
+   "color": "#7775c4"
+  },
+  {
+   "label": "3. Hash map → slots",
+   "value": 5551564925.33627,
+   "text": "5.55B",
+   "tip": [
+    "Hash map → slots · 5.55B tokens in 5.6 s",
+    "The first SlotIndex's build (2026-09-29) applied to the per-length idea of 2026-09-16: three separate tables, for the 6-, 10- and 20-token contexts, each keyed by the hash of its own context. Each position becomes three 8-byte entries (a slot, a tag and the next token). Table by table, one vectorized scan writes the entries into partitions through write-combining cache lines and non-temporal stores, with no counting pass, and each partition is then counting-sorted into fixed slots while it fits in cache, every slot keeping its first 288 entries. Three times the entries of the one table that follows it.",
+    "Measured: 6B tokens in 6.11, 6.08, 6.07 s (miso5, peak 212 GiB)."
+   ],
+   "color": "#906cbe"
+  },
+  {
+   "label": "4. All lengths together",
+   "value": 13136699650.803257,
+   "text": "13.1B",
+   "tip": [
+    "All lengths together · 13.1B tokens in 5.6 s",
+    "One table instead of three, built the same way (2026-09-29, the first SlotIndex). Every position becomes a single 8-byte entry keyed by its 6-token context, holding the next token and fingerprints of its 10- and 20-token contexts (12 and 6 bits): a third of the entries, written by one scan and sorted into slots in one pass.",
+    "Measured: 14B tokens in 6.00, 5.95, 6.23 s (miso5, peak 247 GiB)."
+   ],
+   "color": "#b45bac"
+  },
+  {
+   "label": "5. No sort, SIMD, cache local",
+   "value": 37000000000.0,
+   "text": "37B",
+   "tip": [
+    "No sort, SIMD, cache local · 37B tokens in 5.6 s",
+    "The record code. The scan fills an arena through one cache line per partition held in L2, and the finish places each partition into 2^14 buckets of the final table through staging lines, both with non-temporal stores; the inner loops are written with AVX-512 and have no branches on the data. The hash is computed with IFMA multiplies on byte-permuted token words, 16 positions at a time, one group ahead of their inserts; a scan thread done with its own pieces takes the back half of the busiest remaining run of pieces, so no thread waits on the slowest; and the finish prefetches the arena's 8192-entry blocks and places each entry with one 8-byte store into its bucket's staging line.",
+    "Measured: 37B tokens in 5.60, 5.67, 5.63 s (miso3, peak 739 GiB)."
+   ],
+   "color": "#f7329a"
+  }
+ ],
+ "color": "#008c90",
+ "x_domain": [
+  0,
+  40000000000.0
+ ],
+ "x_ticks": [
+  0,
+  10000000000.0,
+  20000000000.0,
+  30000000000.0,
+  40000000000.0
+ ],
+ "rule": null,
+ "axis": "linear tokens",
+ "vertical": false,
+ "font_size": 15
+}

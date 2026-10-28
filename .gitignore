@@ -1,0 +1,12 @@
+fineweb10B/
+pylog124M/
+__pycache__/
+logs/
+.DS_Store
+exact_match/target/
+cache_ladder/target/
+.venv
+furu-data
+.claude/worktrees
+old_records/.build/
+slurm-*.out

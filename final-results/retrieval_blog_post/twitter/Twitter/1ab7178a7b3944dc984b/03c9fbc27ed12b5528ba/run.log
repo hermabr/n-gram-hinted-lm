@@ -1,0 +1,7 @@
+2026-10-28T17:43:59.633Z level=debug msg="create start"
+2026-10-28T17:43:59.635Z level=debug msg="running sequential create() fallback"
+2026-10-28T17:43:59.638Z level=debug msg=".create called for ValCacheSweep(tokens=(75000000, 150000000, 300000000, 600000000, 1200000000, 2400000000, 4800000000, 9600000000, 19200000000, 37000000000), seed=0)"
+2026-10-28T17:43:59.640Z level=info msg="cached ValCacheSweep:e834f:84797"
+2026-10-28T17:43:59.699Z level=debug msg="sequential create() fallback returned"
+2026-10-28T17:43:59.708Z level=debug msg="stored result bundle at /sphinx/u/brunborg/.t3/worktrees/retrieval-blog-post/t3-922575fe/final-results/retrieval_blog_post/twitter/Twitter/1ab7178a7b3944dc984b/03c9fbc27ed12b5528ba/result"
+2026-10-28T17:43:59.710Z level=debug msg="create complete · 75ms"
