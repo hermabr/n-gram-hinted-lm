@@ -29,7 +29,8 @@ records' stack (its `uv` command is in val_cache.py; llm.c's build also links it
 - `src/retrieval_blog_post/`: the specs; each module's docstring says what it computes.
 - `exact_match/`, `cache_ladder/`: the Rust extensions.
 - `old_records/`: old records ported to take the hints (see its README) and record #1's llm.c trainer
-  (`r001_llmc_c/`); `record_360/`: record #360 as its baseline runs ran it.
+  (`r001_llmc_c/`); `record_360/`: record #360 as its baseline runs ran it. `record_367_gpu_counts/`: the 3.13 s variant
+  (exact n-gram counts on the GPUs, 92 steps), run by `r367_gpu_counts.py`'s `GpuCountsRun`.
 
 ---
 

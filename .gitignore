@@ -10,3 +10,4 @@ furu-data
 .claude/worktrees
 old_records/.build/
 slurm-*.out
+record_367_gpu_counts/track_1_short/counts/.build/

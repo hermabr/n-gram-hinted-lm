@@ -96,15 +96,20 @@ def train_record(
     run_env: dict[str, str],
     logger,
     script: Path = REPO / "train_gpt.py",
+    stage: Path | None = None,
 ) -> str:
     """Run `script` (by default the record's train_gpt.py in the worker's snapshot) on this node's 8 GPUs, with its first
-    `train_shards` training shards and the validation shard copied to the NVMe and `run_env` added to the record's
-    environment; the console goes to out/console.txt and the run log to out/logs/. Returns the run log."""
+    `train_shards` training shards and the validation shard copied to the NVMe (or under `stage`, e.g. /dev/shm) and
+    `run_env` added to the record's environment; the console goes to out/console.txt and the run log to out/logs/.
+    Returns the run log."""
     shutil.rmtree(out / "logs", ignore_errors=True)  # an earlier attempt's
     LOCAL_DISK.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(dir=LOCAL_DISK) as local:
-        local = Path(local)
-        data = local / "data/fineweb100B"
+    with (
+        tempfile.TemporaryDirectory(dir=LOCAL_DISK) as local,
+        tempfile.TemporaryDirectory(dir=stage or local) as root,
+    ):
+        local, root = Path(local), Path(root)
+        data = root / "data/fineweb100B"
         data.mkdir(parents=True)
         shards = [
             *FinewebShards(shards=train_shards).create(),
@@ -122,7 +127,7 @@ def train_record(
             "PYTHONPATH": str(build_extension(local)),
             # skips kernels' publisher check: the FA3 kernel is in the HF cache already
             "HF_HUB_OFFLINE": "1",
-            "DATA_PATH": str(local),
+            "DATA_PATH": str(root),
             "TMPDIR": str(local),  # the sweep's cut shard
             "OMP_NUM_THREADS": "1",
             "PYTHONUNBUFFERED": "1",
